@@ -221,9 +221,18 @@ td { vertical-align: top; }
 header {
 background:rgb(241,242,242);
 }
+
 header p {
 font-size: 100px;
+text-transform: uppercase;
+font-family: "Minion Pro", serif;
 }
+header ul {
+font-size: 24px;
+text-transform: uppercase;
+font-family: "Minion Pro", serif;
+}
+
 #menu {
 background:rgb (241,84,122);
 }
