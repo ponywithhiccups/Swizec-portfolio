@@ -218,8 +218,11 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
-#header {
+header {
 background-color: rgba (241,242,242,1);
+}
+header p {
+font-size: 100px;
 }
 #menu {
 background-color: rgba (241,84,122,0.5);
