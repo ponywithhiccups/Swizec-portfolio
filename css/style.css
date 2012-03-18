@@ -50,7 +50,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: rgba (0,0,0,1); }
+a { color: rgba (255,93,61,1); }
 a:visited { color: rgba (0,0,0,1); }
 a:hover { color: rgba (0, 174, 239, 1); }
 a:focus { outline: thin dotted; }
@@ -221,7 +221,9 @@ td { vertical-align: top; }
 #header {
 background-color: rgba (241,242,242,1);
 }
-
+#menu {
+background-color: rgba (241,84,122,0.5);
+}
 
 
 
