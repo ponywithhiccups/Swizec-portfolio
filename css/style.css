@@ -217,29 +217,39 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
+a { color:rgb(0,0,0); }
+a:visited { color:rgb(0,0,0); }
+a:hover { color:rgb(0,174,239); }
+a:focus { outline:rgb (0,174,239); }
+body {
+font-family:"Minion Pro", serif;
+font-size: 18px
+}
 
 header {
 background:rgb(241,242,242);
+margin: 0px;
 }
 
 header p {
 font-size: 100px;
-text-transform: uppercase;
+font-variant: small-caps;
 font-family: "Minion Pro", serif;
 }
 header ul {
 font-size: 24px;
-text-transform: uppercase;
-font-family: "Minion Pro", serif;
+font-variant: small-caps;
+
 }
 
 #menu {
-background:rgb (241,84,122);
+background:rgb(255,255,255);
 }
-a { color:rgb(255,93,61); }
-a:visited { color:rgb(0,0,0); }
-a:hover { color:rgb(0,174,239); }
-a:focus { outline: thin dotted; }
+
+#content {
+background:rgb(255,255,255);
+}
+
 
 
 
