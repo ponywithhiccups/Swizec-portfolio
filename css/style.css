@@ -250,6 +250,7 @@ header ul {
 font-size: 133%;
 font-variant: small-caps;
 margin: 0px;
+padding: 0px;
 font-weight: 500;
 
 }
@@ -296,6 +297,14 @@ font-size: 300%;
 text-transform: uppercase;
 color: rgb(0,174,239);
 font-weight: lighter;
+}
+#content ul {
+font-size: 80%;
+font-weight: 500;
+}
+
+.description p{
+font-size: 133%;
 }
 
 
