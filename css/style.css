@@ -241,14 +241,16 @@ width: 61.8%;
 }
 
 header p {
-font-size: 100px;
+font-size: 500%;
 font-variant: small-caps;
 font-family: "Minion Pro", serif;
+font-weight: 500;
 }
 header ul {
-font-size: 24px;
+font-size: 133%;
 font-variant: small-caps;
 margin: 0px;
+font-weight: 500;
 
 }
 
@@ -284,6 +286,17 @@ background-position: 0px -122px;
 background:rgb(255,255,255);
 }
 
+#content h1 {
+font-size: 250%;
+font-variant: small-caps;
+font-weight: 300;
+}
+#content h2 {
+font-size: 300%;
+text-transform: uppercase;
+color: rgb(0,174,239);
+font-weight: lighter;
+}
 
 
 
