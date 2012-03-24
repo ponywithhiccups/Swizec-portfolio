@@ -221,14 +221,17 @@ a { color:rgb(0,0,0); }
 a:visited { color:rgb(0,0,0); }
 a:hover { color:rgb(0,174,239); }
 a:focus { outline:rgb (0,174,239); }
+
 body {
 font-family:"Minion Pro", serif;
-font-size: 18px
+font-size: 18px;
+margin: 0px;
+padding: 0px;
 }
 
 header {
 background:rgb(241,242,242);
-margin: 0px;
+
 }
 
 header p {
@@ -239,11 +242,32 @@ font-family: "Minion Pro", serif;
 header ul {
 font-size: 24px;
 font-variant: small-caps;
+margin: 0px;
 
 }
 
 #menu {
 background:rgb(255,255,255);
+}
+a.button {
+background: url("../img/sprite.gif") no-repeat;
+display: block;
+width: 60px;
+height: 60px;
+text-indent: -1000px;
+}
+a:link {
+
+}
+
+a.button.algorithm {
+background-position: 0px 0px;
+}
+a.button.algorithm:hover {
+background-position: 0px -61px;
+}
+a.button.algorithm:active {
+background-position: 0px -122px;
 }
 
 #content {
