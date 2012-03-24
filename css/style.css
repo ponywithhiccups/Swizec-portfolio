@@ -269,9 +269,7 @@ width: 60px;
 height: 60px;
 text-indent: -1000px;
 }
-a:link {
 
-}
 
 a.button.algorithm {
 background-position: 0px 0px;
@@ -281,6 +279,12 @@ background-position: 0px -61px;
 }
 a.button.algorithm:active {
 background-position: 0px -122px;
+}
+
+.menu {
+font-size: 133%;
+font-variant: small-caps;
+font-weight: 500;
 }
 
 #content {
@@ -302,9 +306,22 @@ font-weight: lighter;
 font-size: 80%;
 font-weight: 500;
 }
-
+.description {
+display: block;
+width: 560px;
+height: 560px;
+}
+.description a {
+text-align: center;
+font-variant: small-caps;
+font-size: 133%;
+}
+.description h2 {
+text-align: center;
+}
 .description p{
 font-size: 133%;
+text-align: justify;
 }
 
 
