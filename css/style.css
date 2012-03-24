@@ -217,10 +217,14 @@ td { vertical-align: top; }
 /* ==|== primary styles =====================================================
    Author:
    ========================================================================== */
-a { color:rgb(0,0,0); }
-a:visited { color:rgb(0,0,0); }
-a:hover { color:rgb(0,174,239); }
-a:focus { outline:rgb (0,174,239); }
+a { color:rgb(0,0,0);
+text-decoration: none; }
+a:visited { color:rgb(0,0,0);
+text-decoration: none; }
+a:hover { color:rgb(0,174,239);
+text-decoration: none; }
+a:focus { outline:rgb (0,174,239);
+text-decoration: none; }
 
 body {
 font-family:"Minion Pro", serif;
@@ -250,6 +254,10 @@ margin: 0px;
 
 #menu {
 background:rgb(255,255,255);
+}
+
+#menu.normal{
+width: 38.2%; 
 }
 a.button {
 background: url("../img/sprite.gif") no-repeat;
