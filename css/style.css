@@ -262,6 +262,15 @@ background:rgb(255,255,255);
 #menu.normal{
 width: 38.2%; 
 }
+#menu .text_box {
+display: block;
+height: 435px;
+width: 435px;
+}
+#menu .menu {
+text-align: right;
+}
+
 a.button {
 background: url("../img/sprite.gif") no-repeat;
 display: block;
