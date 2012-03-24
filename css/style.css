@@ -231,7 +231,9 @@ padding: 0px;
 
 header {
 background:rgb(241,242,242);
-
+}
+header.normal {
+width: 61.8%;
 }
 
 header p {
