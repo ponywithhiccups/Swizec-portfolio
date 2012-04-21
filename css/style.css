@@ -236,21 +236,25 @@ padding: 0px;
 #flex {
 display: box;
 }
-
-header {
+section {
+-box-flex: 0;
+width: 200px;
+margin: 0px;
+}
+#header {
 background:rgb(241,242,242);
 }
-header.normal {
+#header.normal {
 width: 61.8%;
 }
 
-header p {
+#header p {
 font-size: 500%;
 font-variant: small-caps;
 font-family: "Minion Pro", serif;
 font-weight: 500;
 }
-header ul {
+#header ul {
 font-size: 133%;
 font-variant: small-caps;
 margin: 0px;
