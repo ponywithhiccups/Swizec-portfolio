@@ -240,12 +240,15 @@ height: 100%;
 padding: 0px;
 }
 section {
--box-flex: 0;
+box-flex: 0;
+-webkit-box-flex: 0;
 width: 200px;
 margin: 0px;
 padding: 0px;
 }
 #header {
+-webkit-box-flex: 5;
+box-flex: 5;
 background:rgb(241,242,242);
 }
 #header.normal {
@@ -268,11 +271,13 @@ font-weight: 500;
 }
 
 #menu {
+-webkit-box-flex: 3;
+box-flex: 3;
 background:rgb(255,255,255);
 }
 
 #menu.normal{
-width: 38.2%; 
+ 
 }
 #menu .text_box {
 display: block;
@@ -309,6 +314,8 @@ font-weight: 500;
 }
 
 #content {
+-webkit-box-flex: 12;
+box-flex: 12;
 background:rgb(255,255,255);
 }
 
@@ -343,6 +350,7 @@ text-align: center;
 .description p{
 font-size: 133%;
 text-align: justify;
+overflow: auto;
 }
 
 
