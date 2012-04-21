@@ -250,6 +250,7 @@ padding: 0px;
 -webkit-box-flex: 5;
 box-flex: 5;
 background:rgb(241,242,242);
+z-index: 1;
 }
 #header.normal {
 
@@ -274,6 +275,7 @@ font-weight: 500;
 -webkit-box-flex: 3;
 box-flex: 3;
 background:rgb(255,255,255);
+z-index: 2;
 }
 
 #menu.normal{
@@ -317,6 +319,7 @@ font-weight: 500;
 -webkit-box-flex: 12;
 box-flex: 12;
 background:rgb(255,255,255);
+z-index: 3;
 }
 
 #content h1 {
