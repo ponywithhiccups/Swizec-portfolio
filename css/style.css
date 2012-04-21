@@ -233,6 +233,10 @@ margin: 0px;
 padding: 0px;
 }
 
+#flex {
+display: box;
+}
+
 header {
 background:rgb(241,242,242);
 }
